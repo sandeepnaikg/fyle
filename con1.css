@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 80vh;
+  width: 100%;
+  /* justify-content: center; */
+  display: flex;
+  /* align-items: center; */
+  background-color: #c0c0c0;
+  padding-top: 60px;
+  margin-left: 300px;
+
+   background:#c0c0c0; 
+}
+body::before{
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 100% ;
+ 
+  
+  background-size: cover;
+}
+.wrapper{
+  width: 400px;
+  padding: 50px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  text-align: center;
+  -webkit-backdrop-filter: blur(8px);
+  
+  
+
+}
+
+
+form h3{
+  font-size: 1.5rem;
+  color:black;
+  margin-bottom: 20px;
+  margin-right: 140px;
+  margin-bottom: 20px;
+
+}
+.input-field{
+  border-bottom: 1px solid #c0c0c0;
+  position: relative;
+}
+.input-field input{
+  height: 30px;
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+ 
+}
+.input-field label{
+  position: absolute;
+  bottom: 2px;
+  /* top: 60%; */
+  left: 0;
+  color:#c0c0c0;
+  font-size: 1rem;
+ 
+  pointer-events: none;
+  transition: all 0.3s ease
+  
+}
+.input-field input:focus ~ label,
+.input-field input:valid ~ label
+{
+  transform: translateY(-20px);
+  font-size: 0.8rem;
+  top: 10px;
+}
+
+.input-field1{
+  border-bottom: 1px solid #c0c0c0;
+  position: relative;
+  
+}
+.input-field1 input{
+  height: 40px;
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  
+}
+.input-field1 label{
+  position: absolute;
+  bottom: 10px;
+  top: 60%;
+  left: 0;
+  color:#c0c0c0;
+ 
+  font-size: 1rem;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition:  0.3s ease;
+}
+.input-field1 input:focus ~ label,
+.input-field1 input:valid ~ label
+
+{
+  transform: translateY(-20px);
+  font-size: 0.8rem;
+  top: 10px;
+
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0 35px 0;
+}
+ .p1{
+  color: #c0c0c0;
+  font-size: 0.8rem;
+ }
+ .contactus{
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-left: 5px;
+  text-align: center;
+  padding: 5px;
+  background-color: #e3256b;
+  border-color: #e3256b;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  cursor: pointer;
+ }
+ .checkbox {
+  display:block;
+  position: relative;
+  border: none;
+  outline: none;
+  
+
+ }
+ #checkbox{
+  border-color:red ;
+ }
+ 
+ 
+input[type="checkbox"]{
+  accent-color: red;
+  
+
+  
+}
+input[type="checkbox"]{
+  outline: 0.5px auto red;
+
+
+  
+}
+
+input[type="checkbox"] {
+  
+  width: 15px;
+  height: 15px;
+  border: none; 
+  
+  cursor: pointer;
+  position: relative;
+}
+
